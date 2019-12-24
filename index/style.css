@@ -10,10 +10,6 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-button{
-	font-family: 'Montserrat', sans-serif;
-}
-
 header{
 	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.tokkoro.com/picsup/3069862-clothes_hangers_rack.jpg');
 	background-size: cover;
@@ -25,6 +21,15 @@ h1,h2{
 	font-family: 'Fjalla One', sans-serif;
 	font-weight: 600;
 
+}
+
+
+button{
+	font-family: 'Montserrat', sans-serif;
+}
+
+input{
+	font-family: 'Montserrat', sans-serif;
 }
 
 a{
@@ -45,7 +50,7 @@ a:hover{
 	color: white;
 }
 
-.nav-ul{
+.nav-menu-ul{
 	list-style: none;
 	display: flex;
 	justify-content: center;
@@ -113,7 +118,6 @@ section{
 
 .section-one{
 	/* background: #DECFA7; */
-	margin-top: 1px;
 	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://d3h7g7423jz13a.cloudfront.net/wp-content/uploads/2018/05/15134535/girlclothingrack.jpg');
 }
 
@@ -213,4 +217,148 @@ section{
 	top: 55%;
 	margin-left: 55%;
 	margin-right: 5%;
+}
+
+/* .big-block, .block-group, .small-block{
+	border: 1px solid black;
+} */
+
+footer{
+	
+}
+
+.list-group{
+	display: flex;
+	align-self: flex-start;
+	margin-left: 4.5%;
+}
+
+.title-list-1{
+	width: 200px;
+}
+
+.blocks{
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	height: 70%;
+	width: 90%;
+	margin: 0;
+}
+
+.lg-block{
+	width: 50%;
+	height: 100%;
+	background: #BAC9E0;
+}
+
+.group-sm-block{
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sm-block{
+	width: 50%;
+	height: 50%;
+}
+
+.sm-block-1{
+	background: #D9DADF;
+}
+
+.sm-block-2{
+	background: #D8D7D5;
+}
+
+.sm-block-3{
+	background: #CDCED7;
+}
+
+.sm-block-4{
+	background: #D4CFC3;;
+}
+
+.form-section{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-header{
+	font-size: 21px;
+	margin: 0;
+}
+
+.form-txt{
+	margin-bottom: 45px;
+}
+
+.footer-form{
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.form-email{
+	width: 550px;
+	padding: 10px;
+	border: none;
+}
+
+.form-btn{
+	font-weight: 900;
+	font-size: 21px;
+	padding: 10px 17px 10px 17px;
+	transition: all .4s ease;
+}
+
+.form-btn:hover{
+	background: #99CB7B;
+	color: white;
+}
+
+.form-btn:active{
+	transform: scale(0.9);
+}
+
+.footer-form input{
+	border: none;
+	background: none;
+	font-size: 17px;
+}
+
+
+.nav-footer{
+	height: 60vh;
+}
+
+.nav-list{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-header{
+	font-size: 21px;
+	margin-bottom: 50px;
+}
+
+.nav-list-ul{
+	list-style: none;
+	padding: 0;
+}
+
+.nav-list-ul>.nav-elem{
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+.nav-list a{
+	text-decoration: none;
+	color: black;
+	margin: 0;
+}
+
+.nav-list a:hover{
+	text-decoration: underline;
 }
