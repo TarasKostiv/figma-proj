@@ -123,11 +123,13 @@ section{
 	position: relative;
 	top: 35%;
 	margin-left: 12%;
+
 }
 
 
 .img-hero{
 	display: flex;
+	background: #DECFA7;;
 }
 
 .img-column{
