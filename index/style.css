@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: #3A2511;
+	height: 100vh;
+	width: 100%;
+}
+
+h1,h2{
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 600;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+nav a{
+	color: white;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.nav-menu{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.nav-ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.nav-elem{
+	margin: 7px;
+}
+
+.header-logo{
+	letter-spacing: 15px;
+	font-size: 25px;
+}
+
+
+.header-hero{
+	color: white;
+	margin-top: 26%;
+	margin-left: 12%;
+}
+
+.hero-header{
+	font-size: 65px;
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+
+.hero-txt{
+	margin-bottom: 30px;
+	font-size: 17px;
+	width: 70%;
+}
+
+.hero-btn{
+	background: none;
+	border: 1px solid white;
+	width: 280px;
+	height: 70px;
+	/* padding: 17px 25px 17px 25px; */
+	color:white; 
+	font-size: 17px;
+	cursor: pointer;
+	transition: all .4s ease, transform .2s ease;
+}
+
+.hero-btn:hover{
+	background: white;
+	color: black;
+}
+
+.hero-btn:active{
+	background: #e0e0e0;
+	transform: scale(0.9);
+	
+}
+
+
+section{
+	height: 100vh;
+}
+
+.section-one{
+	background: #DECFA7;
+}
+
+.section-two{
+	background: #C9CB7B;
+}
+
+.main-hero{
+	color: white;
+	position: relative;
+	top: 35%;
+	margin-left: 12%;
+}
+
+
+.img-hero{
+	display: flex;
+}
+
+.img-column{
+	width: 33.33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('');
+	background-size: cover;
+}
+
+.backimg-1{
+	background-color: #B9C8CB;
+}
+
+.backimg-2{
+	background-color: #DAB4AF;
+}
+
+.backimg-3{
+	background-color: #D3DAE2;
+}
+
+
+.product-list{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.list-header{
+	display: flex;
+	align-self: flex-start;
+	margin-left: 5%;
+}
+
+.list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+	width: 90%;
+	margin: 0;
+}
+
+.product{
+	width: 100%;
+	height: 100%;
+}
+
+.product-list-elem-1{
+	background: #E9E7E8;
+}
+
+.product-list-elem-2{
+	background: #E1E1DF;
+}
+
+.product-list-elem-3{
+	background: #E8E8E6;
+}
+
+.product-list-elem-4{
+	background: #D4D4D4;
+}
+
+
+.footer-section{
+	background: #99CB7B;
+}
+
+.footer-hero{
+	color: white;
+	position: relative;
+	top: 55%;
+	margin-left: 55%;
+	margin-right: 5%;
+}
