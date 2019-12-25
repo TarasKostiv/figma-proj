@@ -11,7 +11,7 @@ body{
 }
 
 header{
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/background-1.jpg');
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://24h.com.cy/wp-content/uploads/2019/07/zara-polka-dot-dress-1.jpg');
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
@@ -119,7 +119,7 @@ section{
 
 .section-one{
 	/* background: #DECFA7; */
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('./img/background-2.jpg');
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://i.f1g.fr/media/madame/1900x1900_crop/sites/default/files/img/2019/01/soldes-2019--30-pieces-a-moins-de-30-euros-a-soffrir-illico-chez-zara_0.jpg');
 	background-size: cover;
 }
 
@@ -134,10 +134,12 @@ section{
 .img-hero{
 	display: flex;
 	/* background: #DECFA7; */
+	overflow: hidden;
 }
 
 .img-hero img{
 	height: 100%;
+	position: relative;
 }
 
 .img-column{
@@ -145,8 +147,6 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url('');
-	background-size: cover;
 	position: relative;
 }
 
@@ -164,7 +164,7 @@ section{
 
 .section-two{
 	/* background: #C9CB7B; */
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://static.zara.net/photos///2019/I/0/1/p/1255/233/802/2/w/796/1255233802_9_3_1.jpg?ts=1571392570746');
 	background-size: cover;
 }
 
@@ -197,19 +197,13 @@ section{
 }
 
 .product img{
-	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 
 
-.product-list-elem-1{
+/* .product-list-elem-1{
 	background: #E9E7E8;
-	/* background: url('');
-	background-size: cover;
-	background-position: left top; */
-}
-
-.product-list-elem-1 {
-
 }
 
 .product-list-elem-2{
@@ -222,12 +216,12 @@ section{
 
 .product-list-elem-4{
 	background: #D4D4D4;
-}
+} */
 
 
 .footer-section{
 	/* background: #99CB7B; */
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('https://chemicalsinourlife.echa.europa.eu/documents/23718410/23807413/c_shirts-lg.jpg/79808f7c-afad-4311-50ce-8cefd8ba083c?t=1560169203942');
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('https://sf1.viepratique.fr/wp-content/uploads/sites/5/2017/09/zara.jpg');
 	background-size: cover;
 }
 
@@ -255,7 +249,7 @@ section{
 
 .blocks{
 	display: flex;
-	/* justify-content: center; */
+	justify-content: center;
 	align-items: center;
 	height: 70%;
 	width: 90%;
@@ -265,13 +259,12 @@ section{
 .lg-block{
 	width: 50%;
 	height: 100%;
-	/* background: #BAC9E0; */
-	display: flex;
-	justify-content: flex-end;
+	background: #BAC9E0;
+	overflow: hidden;
 }
 
 .lg-block img{
-	height: 100%;
+	width: 100%;	
 }
 
 .group-sm-block{
@@ -279,13 +272,8 @@ section{
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
-}
-
-.mask{
-	position: relative;
-	background: white;
-	width: 100%;
-	height: 15vh;
+	justify-content: center;
+	align-items: center;
 }
 
 .group-sm-block img{
@@ -295,6 +283,7 @@ section{
 .sm-block{
 	width: 50%;
 	height: 50%;
+	overflow: hidden;
 }
 
 .sm-block-1{
@@ -415,7 +404,6 @@ section{
 .nav-list a:hover{
 	text-decoration: underline;
 }
-
 
 
 
