@@ -1,206 +1,211 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat&display=swap");
 
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-	padding: 0;
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-header{
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://24h.com.cy/wp-content/uploads/2019/07/zara-polka-dot-dress-1.jpg');
-	background-size: cover;
-	height: 100vh;
-	width: 100%;
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://24h.com.cy/wp-content/uploads/2019/07/zara-polka-dot-dress-1.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: -1;
 }
 
-h1,h2{
-	font-family: 'Fjalla One', sans-serif;
-	font-weight: 600;
-
+h1,
+h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 600;
 }
 
-
-button{
-	font-family: 'Montserrat', sans-serif;
+button {
+  font-family: "Montserrat", sans-serif;
 }
 
-input{
-	font-family: 'Montserrat', sans-serif;
+input {
+  font-family: "Montserrat", sans-serif;
 }
 
-a{
-	text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-nav a{
-	color: white;
+nav a {
+  color: white;
 }
 
-a:hover{
-	text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
 
-.nav-menu{
-	display: flex;
-	justify-content: space-between;
-	color: white;
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 
-.nav-menu-ul{
-	list-style: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0;
-	margin-left: 5%;
-	margin-right: 5%;
+.nav-menu-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.nav-elem{
-	margin: 7px;
+.nav-elem {
+  margin: 7px;
 }
 
-.header-logo{
-	letter-spacing: 15px;
-	font-size: 25px;
+.nav-menu h2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-
-.header-hero{
-	color: white;
-	margin-top: 26%;
-	margin-left: 12%;
+.header-logo {
+  letter-spacing: 15px;
+  font-size: 25px;
 }
 
-.hero-header{
-	font-size: 65px;
-	margin-bottom: 25px;
-	margin-top: 0;
+.header-hero {
+  color: white;
+  margin-top: 26%;
+  margin-left: 12%;
 }
 
-.hero-txt{
-	margin-bottom: 30px;
-	font-size: 17px;
-	width: 70%;
+.hero-header {
+  font-size: 65px;
+  margin-bottom: 25px;
+  margin-top: 0;
 }
 
-.hero-btn{
-	background: none;
-	border: 1px solid white;
-	width: 280px;
-	height: 70px;
-	/* padding: 17px 25px 17px 25px; */
-	color:white; 
-	font-size: 17px;
-	cursor: pointer;
-	transition: all .4s ease, transform .2s ease;
-	outline: none;
+.hero-txt {
+  margin-bottom: 30px;
+  font-size: 17px;
+  width: 70%;
 }
 
-.hero-btn:hover{
-	background: white;
-	color: black;
+.hero-btn {
+  background: none;
+  border: 1px solid white;
+  width: 280px;
+  height: 70px;
+  /* padding: 17px 25px 17px 25px; */
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.4s ease, transform 0.2s ease;
+  outline: none;
 }
 
-.hero-btn:active{
-	background: #e0e0e0;
-	transform: scale(0.9);
-	
+.hero-btn:hover {
+  background: white;
+  color: black;
 }
 
-
-section{
-	height: 100vh;
+.hero-btn:active {
+  background: #e0e0e0;
+  transform: scale(0.9);
 }
 
-.section-one{
-	/* background: #DECFA7; */
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://i.f1g.fr/media/madame/1900x1900_crop/sites/default/files/img/2019/01/soldes-2019--30-pieces-a-moins-de-30-euros-a-soffrir-illico-chez-zara_0.jpg');
-	background-size: cover;
+section {
+  height: 100vh;
 }
 
-.main-hero{
-	color: white;
-	position: relative;
-	top: 35%;
-	margin-left: 12%;
+.section-one {
+  /* background: #DECFA7; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.f1g.fr/media/madame/1900x1900_crop/sites/default/files/img/2019/01/soldes-2019--30-pieces-a-moins-de-30-euros-a-soffrir-illico-chez-zara_0.jpg");
+  background-size: cover;
 }
 
-
-.img-hero{
-	display: flex;
-	/* background: #DECFA7; */
-	overflow: hidden;
+.main-hero {
+  color: white;
+  position: relative;
+  top: 35%;
+  margin-left: 12%;
 }
 
-.img-hero img{
-	height: 100%;
-	position: relative;
+.img-hero {
+  display: flex;
+  /* background: #DECFA7; */
+  overflow: hidden;
 }
 
-.img-column{
-	width: 33.33%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
+.img-hero img {
+  height: 100%;
+  position: relative;
 }
 
-.backimg-1{
-	/* background-color: #B9C8CB; */
+.img-column {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.backimg-2{
-	/* background-color: #DAB4AF; */
+.backimg-1 {
+  /* background-color: #B9C8CB; */
 }
 
-.backimg-3{
-	/* background-color: #D3DAE2; */
+.backimg-2 {
+  /* background-color: #DAB4AF; */
 }
 
-.section-two{
-	/* background: #C9CB7B; */
-	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('https://static.zara.net/photos///2019/I/0/1/p/1255/233/802/2/w/796/1255233802_9_3_1.jpg?ts=1571392570746');
-	background-size: cover;
+.backimg-3 {
+  /* background-color: #D3DAE2; */
 }
 
-.product-list{
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.section-two {
+  /* background: #C9CB7B; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://static.zara.net/photos///2019/I/0/1/p/1255/233/802/2/w/796/1255233802_9_3_1.jpg?ts=1571392570746");
+  background-size: cover;
 }
 
-.list-header{
-	display: flex;
-	align-self: flex-start;
-	margin-left: 5%;
+.product-list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.list{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 70%;
-	width: 90%;
-	margin: 0;
+.list-header {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 5%;
 }
 
-.product{
-	width: 100%;
-	height: 100%;
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 90%;
+  margin: 0;
 }
 
-.product img{
-	width: 100%;
-	overflow: hidden;
+.product {
+  width: 100%;
+  height: 100%;
 }
 
+.product img {
+  width: 100%;
+  overflow: hidden;
+}
 
 /* .product-list-elem-1{
 	background: #E9E7E8;
@@ -218,195 +223,273 @@ section{
 	background: #D4D4D4;
 } */
 
-
-.footer-section{
-	/* background: #99CB7B; */
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('https://sf1.viepratique.fr/wp-content/uploads/sites/5/2017/09/zara.jpg');
-	background-size: cover;
+.footer-section {
+  /* background: #99CB7B; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://sf1.viepratique.fr/wp-content/uploads/sites/5/2017/09/zara.jpg");
+  background-size: cover;
 }
 
-.footer-hero{
-	color: white;
-	position: relative;
-	top: 55%;
-	margin-left: 55%;
-	margin-right: 5%;
+.footer-hero {
+  color: white;
+  position: relative;
+  top: 55%;
+  margin-left: 55%;
+  margin-right: 5%;
 }
 
 /* .big-block, .block-group, .small-block{
 	border: 1px solid black;
 } */
 
-.list-group{
-	display: flex;
-	align-self: flex-start;
-	margin-left: 4.5%;
+.list-group {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 4.5%;
 }
 
-.title-list-1{
-	width: 200px;
+.title-list-1 {
+  width: 200px;
 }
 
-.blocks{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 70%;
-	width: 90%;
-	margin: 0;
+.blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 90%;
+  margin: 0;
 }
 
-.lg-block{
-	width: 50%;
-	height: 100%;
-	background: #BAC9E0;
-	overflow: hidden;
+.lg-block {
+  width: 50%;
+  height: 100%;
+  background: #bac9e0;
+  overflow: hidden;
 }
 
-.lg-block img{
-	width: 100%;	
+.lg-block img {
+  width: 100%;
 }
 
-.group-sm-block{
-	height: 100%;
-	width: 50%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+.group-sm-block {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.group-sm-block img{
-	width: 100%;
+.group-sm-block img {
+  width: 100%;
 }
 
-.sm-block{
-	width: 50%;
-	height: 50%;
-	overflow: hidden;
+.sm-block {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
 }
 
-.sm-block-1{
-	background: #D9DADF;
+.sm-block-1 {
+  background: #d9dadf;
 }
 
-.sm-block-2{
-	background: #D8D7D5;
+.sm-block-2 {
+  background: #d8d7d5;
 }
 
-.sm-block-3{
-	background: #CDCED7;
+.sm-block-3 {
+  background: #cdced7;
 }
 
-.sm-block-4{
-	background: #D4CFC3;;
+.sm-block-4 {
+  background: #d4cfc3;
 }
 
-.form-section{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+.form-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.hashtag-btn{
-	background: none;
-	border: 1px solid white;
-	font-size: 17px;
-	transition: border .4s ease, transform .2s ease;
-	cursor: pointer;
-	outline: none;
+.hashtag-btn {
+  background: none;
+  border: 1px solid white;
+  font-size: 17px;
+  transition: border 0.4s ease, transform 0.2s ease;
+  cursor: pointer;
+  outline: none;
 }
 
-.hashtag-btn:hover{
-	border-bottom: 1px solid black;
+.hashtag-btn:hover {
+  border-bottom: 1px solid black;
 }
 
-.hashtag-btn:active{
-	transform: scale(0.95);
+.hashtag-btn:active {
+  transform: scale(0.95);
 }
 
-
-.form-header{
-	font-size: 21px;
-	margin: 0;
+.form-header {
+  font-size: 21px;
+  margin: 0;
 }
 
-.form-txt{
-	margin-bottom: 45px;
+.form-txt {
+  margin-bottom: 45px;
 }
 
-.footer-form{
-	border-bottom: 1px solid #D8D8D8;
+.footer-form {
+  border-bottom: 1px solid #d8d8d8;
 }
 
-.form-email{
-	width: 550px;
-	padding: 10px;
-	border: none;
-	outline: none;
+.form-email {
+  width: 550px;
+  padding: 10px;
+  border: none;
+  outline: none;
 }
 
-.form-btn{
-	font-weight: 900;
-	font-size: 21px;
-	padding: 10px 17px 10px 17px;
-	transition: all .4s ease;
-	outline: none;
+.form-btn {
+  font-weight: 900;
+  font-size: 21px;
+  padding: 10px 17px 10px 17px;
+  transition: all 0.4s ease;
+  outline: none;
 }
 
-.form-btn:hover{
-	background: #99CB7B;
-	color: white;
+.form-btn:hover {
+  background: #99cb7b;
+  color: white;
 }
 
-.form-btn:active{
-	transform: scale(0.9);
+.form-btn:active {
+  transform: scale(0.9);
 }
 
-.footer-form input{
-	border: none;
-	background: none;
-	font-size: 17px;
+.footer-form input {
+  border: none;
+  background: none;
+  font-size: 17px;
 }
 
-
-.nav-footer{
-	height: 60vh;
+.nav-footer {
+  height: 60vh;
 }
 
-.nav-list{
-	margin-top: 50px;
-	display: flex;
-	justify-content: space-around;
+.nav-list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.nav-header{
-	font-size: 21px;
-	margin-bottom: 50px;
+.nav-header {
+  font-size: 21px;
+  margin-bottom: 50px;
 }
 
-.nav-list-ul{
-	list-style: none;
-	padding: 0;
+.nav-list-ul {
+  list-style: none;
+  padding: 0;
 }
 
-.nav-list-ul>.nav-elem{
-	margin-left: 0;
-	margin-bottom: 20px;
+.nav-list-ul > .nav-elem {
+  margin-left: 0;
+  margin-bottom: 20px;
 }
 
-.nav-list a{
-	text-decoration: none;
-	color: black;
-	margin: 0;
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
 }
 
-.nav-list a:hover{
-	text-decoration: underline;
+.nav-list a:hover {
+  text-decoration: underline;
 }
 
+@media screen and (min-width: 1050px) {
+  .mobile {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 1050px) {
+  .mobile {
+    display: inline;
+  }
 
+  .nav-elem {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-menu-ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    letter-spacing: 0px;
+  }
+
+  .nav-elem-mob {
+    font-size: 21px;
+    margin: 5px;
+  }
+
+  .header-hero {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 75%;
+    position: relative;
+    background-color: white;
+    height: 26.5%;
+  }
+
+  .hero-header {
+    font-size: 50px;
+  }
+
+  .hero-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .hero-btn {
+    color: black;
+    border: 1px solid black;
+  }
+
+  .hero-btn:hover {
+    background: white;
+    color: black;
+  }
+
+  .hero-btn:active {
+    background: #e0e0e0;
+    transform: scale(0.9);
+  }
+
+  /* .mask{
+		background: white;
+		position: absolute;
+		z-index: 1;
+		height: 60vh;
+		width: 100%;
+	}
+	 */
+}
 /* Exemple */
 
 /* .tooltip {
